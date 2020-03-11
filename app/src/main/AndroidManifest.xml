@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="esi.siw.child_app">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/icon_mind"
+        android:label="متع ذهنك"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".game_word.GameWord_Activity"
+            android:label="وصل الكلمات" />
+
+        <activity
+            android:name=".addition_game.GameAdd_Activity"
+            android:label="الجمع والطرح" />
+
+        <activity
+            android:name=".G_Evaluation_Activity"
+            android:label="متع ذهنك" />
+
+
+        <activity
+            android:name=".culture_game.GameCulture_Activity"
+            android:label="ثقافة عامة" />
+
+        <activity
+            android:name=".comparison_game.GameComparison_Activity"
+            android:label="المقارنة" />
+
+        <activity
+            android:name=".fastcalcul_game.GameFastCalcul_Activity"
+            android:label="الحساب السريع" />
+
+        <activity
+            android:name=".promath_game.GamePromath_Activity"
+            android:label="مسائل رياضيات" />
+
+        <activity
+            android:name=".color_game.GameColor_Activity"
+            android:label="إرتباك الألوان" />
+
+        <activity
+            android:name=".tri_game.GameTri_Activity"
+            android:label="ترتيب الأعداد" />
+
+        <activity
+            android:name=".GC_Evaluation_Activity"
+            android:label="متع ذهنك" />
+
+
+    </application>
+
+</manifest>

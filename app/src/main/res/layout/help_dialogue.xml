@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+android:layout_height="match_parent">
+
+
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <ScrollView
+        android:id="@+id/content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:gravity="center"
+            android:orientation="vertical">
+
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center">
+
+                <ImageView
+                    android:layout_width="50dp"
+                    android:layout_height="70dp"
+                    android:src="@drawable/icon_mind" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="30dp"
+                    android:text="متع ذهنك"
+                    />
+
+            </LinearLayout>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginHorizontal="25dp"
+                android:textSize="18dp"
+                android:text="تطبيق متع ذهنك هو برنامج تربوي ترفيهي يهدف إلى تنمية الذكاء و التفكير و القدرات الذهنية لدى الأطفال و هذا في إطار المسابقة الوطنية التي أطلقتها وزارة التضامن الوطني والأسرة وقضايا المرأة : تطبيقات الألعاب الرقمية التربوية الترفيهية الموجهة للأطفال  "
+                />
+
+
+
+            <Button
+                android:id="@+id/btn_help"
+                android:layout_width="143dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:layout_marginBottom="12dp"
+                android:textSize="30dp"
+                android:text="إغلاق" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>
+
+</android.support.constraint.ConstraintLayout>
